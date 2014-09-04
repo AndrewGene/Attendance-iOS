@@ -32,6 +32,8 @@
         MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
     }
+    
+    NSLog(@"launched");
     return YES;
 }
 							

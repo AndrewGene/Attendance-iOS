@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891155BA19B8EB48009D6A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155B919B8EB48009D6A39 /* Foundation.framework */; };
+		891155BC19B8EB48009D6A39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155BB19B8EB48009D6A39 /* CoreGraphics.framework */; };
+		891155BE19B8EB48009D6A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155BD19B8EB48009D6A39 /* UIKit.framework */; };
+		891155C019B8EB48009D6A39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155BF19B8EB48009D6A39 /* CoreData.framework */; };
+		891155C619B8EB48009D6A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 891155C419B8EB48009D6A39 /* InfoPlist.strings */; };
+		891155C819B8EB48009D6A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 891155C719B8EB48009D6A39 /* main.m */; };
+		891155CC19B8EB48009D6A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 891155CB19B8EB48009D6A39 /* AppDelegate.m */; };
+		891155CF19B8EB48009D6A39 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891155CD19B8EB48009D6A39 /* Main_iPhone.storyboard */; };
+		891155D219B8EB48009D6A39 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891155D019B8EB48009D6A39 /* Main_iPad.storyboard */; };
+		891155D519B8EB48009D6A39 /* Attendance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 891155D319B8EB48009D6A39 /* Attendance.xcdatamodeld */; };
+		891155D819B8EB48009D6A39 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891155D719B8EB48009D6A39 /* MasterViewController.m */; };
+		891155DB19B8EB48009D6A39 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891155DA19B8EB48009D6A39 /* DetailViewController.m */; };
+		891155DD19B8EB48009D6A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891155DC19B8EB48009D6A39 /* Images.xcassets */; };
+		891155E419B8EB48009D6A39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155E319B8EB48009D6A39 /* XCTest.framework */; };
+		891155E519B8EB48009D6A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155B919B8EB48009D6A39 /* Foundation.framework */; };
+		891155E619B8EB48009D6A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155BD19B8EB48009D6A39 /* UIKit.framework */; };
+		891155E719B8EB48009D6A39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891155BF19B8EB48009D6A39 /* CoreData.framework */; };
+		891155EF19B8EB48009D6A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 891155ED19B8EB48009D6A39 /* InfoPlist.strings */; };
+		891155F119B8EB48009D6A39 /* AttendanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 891155F019B8EB48009D6A39 /* AttendanceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891155E819B8EB48009D6A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891155AE19B8EB48009D6A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891155B519B8EB48009D6A39;
+			remoteInfo = Attendance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891155B619B8EB48009D6A39 /* Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891155B919B8EB48009D6A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		891155BB19B8EB48009D6A39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		891155BD19B8EB48009D6A39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		891155BF19B8EB48009D6A39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		891155C319B8EB48009D6A39 /* Attendance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Attendance-Info.plist"; sourceTree = "<group>"; };
+		891155C519B8EB48009D6A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		891155C719B8EB48009D6A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		891155C919B8EB48009D6A39 /* Attendance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance-Prefix.pch"; sourceTree = "<group>"; };
+		891155CA19B8EB48009D6A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		891155CB19B8EB48009D6A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		891155CE19B8EB48009D6A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		891155D119B8EB48009D6A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		891155D419B8EB48009D6A39 /* Attendance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Attendance.xcdatamodel; sourceTree = "<group>"; };
+		891155D619B8EB48009D6A39 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		891155D719B8EB48009D6A39 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		891155D919B8EB48009D6A39 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		891155DA19B8EB48009D6A39 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		891155DC19B8EB48009D6A39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		891155E219B8EB48009D6A39 /* AttendanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891155E319B8EB48009D6A39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		891155EC19B8EB48009D6A39 /* AttendanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttendanceTests-Info.plist"; sourceTree = "<group>"; };
+		891155EE19B8EB48009D6A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		891155F019B8EB48009D6A39 /* AttendanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttendanceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891155B319B8EB48009D6A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155BC19B8EB48009D6A39 /* CoreGraphics.framework in Frameworks */,
+				891155C019B8EB48009D6A39 /* CoreData.framework in Frameworks */,
+				891155BE19B8EB48009D6A39 /* UIKit.framework in Frameworks */,
+				891155BA19B8EB48009D6A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891155DF19B8EB48009D6A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155E419B8EB48009D6A39 /* XCTest.framework in Frameworks */,
+				891155E719B8EB48009D6A39 /* CoreData.framework in Frameworks */,
+				891155E619B8EB48009D6A39 /* UIKit.framework in Frameworks */,
+				891155E519B8EB48009D6A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891155AD19B8EB48009D6A39 = {
+			isa = PBXGroup;
+			children = (
+				891155C119B8EB48009D6A39 /* Attendance */,
+				891155EA19B8EB48009D6A39 /* AttendanceTests */,
+				891155B819B8EB48009D6A39 /* Frameworks */,
+				891155B719B8EB48009D6A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891155B719B8EB48009D6A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891155B619B8EB48009D6A39 /* Attendance.app */,
+				891155E219B8EB48009D6A39 /* AttendanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891155B819B8EB48009D6A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				891155B919B8EB48009D6A39 /* Foundation.framework */,
+				891155BB19B8EB48009D6A39 /* CoreGraphics.framework */,
+				891155BD19B8EB48009D6A39 /* UIKit.framework */,
+				891155BF19B8EB48009D6A39 /* CoreData.framework */,
+				891155E319B8EB48009D6A39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		891155C119B8EB48009D6A39 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				891155CA19B8EB48009D6A39 /* AppDelegate.h */,
+				891155CB19B8EB48009D6A39 /* AppDelegate.m */,
+				891155CD19B8EB48009D6A39 /* Main_iPhone.storyboard */,
+				891155D019B8EB48009D6A39 /* Main_iPad.storyboard */,
+				891155D619B8EB48009D6A39 /* MasterViewController.h */,
+				891155D719B8EB48009D6A39 /* MasterViewController.m */,
+				891155D919B8EB48009D6A39 /* DetailViewController.h */,
+				891155DA19B8EB48009D6A39 /* DetailViewController.m */,
+				891155DC19B8EB48009D6A39 /* Images.xcassets */,
+				891155D319B8EB48009D6A39 /* Attendance.xcdatamodeld */,
+				891155C219B8EB48009D6A39 /* Supporting Files */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		891155C219B8EB48009D6A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891155C319B8EB48009D6A39 /* Attendance-Info.plist */,
+				891155C419B8EB48009D6A39 /* InfoPlist.strings */,
+				891155C719B8EB48009D6A39 /* main.m */,
+				891155C919B8EB48009D6A39 /* Attendance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		891155EA19B8EB48009D6A39 /* AttendanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				891155F019B8EB48009D6A39 /* AttendanceTests.m */,
+				891155EB19B8EB48009D6A39 /* Supporting Files */,
+			);
+			path = AttendanceTests;
+			sourceTree = "<group>";
+		};
+		891155EB19B8EB48009D6A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891155EC19B8EB48009D6A39 /* AttendanceTests-Info.plist */,
+				891155ED19B8EB48009D6A39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891155B519B8EB48009D6A39 /* Attendance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891155F419B8EB48009D6A39 /* Build configuration list for PBXNativeTarget "Attendance" */;
+			buildPhases = (
+				891155B219B8EB48009D6A39 /* Sources */,
+				891155B319B8EB48009D6A39 /* Frameworks */,
+				891155B419B8EB48009D6A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Attendance;
+			productName = Attendance;
+			productReference = 891155B619B8EB48009D6A39 /* Attendance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891155E119B8EB48009D6A39 /* AttendanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891155F719B8EB48009D6A39 /* Build configuration list for PBXNativeTarget "AttendanceTests" */;
+			buildPhases = (
+				891155DE19B8EB48009D6A39 /* Sources */,
+				891155DF19B8EB48009D6A39 /* Frameworks */,
+				891155E019B8EB48009D6A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891155E919B8EB48009D6A39 /* PBXTargetDependency */,
+			);
+			name = AttendanceTests;
+			productName = AttendanceTests;
+			productReference = 891155E219B8EB48009D6A39 /* AttendanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891155AE19B8EB48009D6A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Goodwin";
+				TargetAttributes = {
+					891155E119B8EB48009D6A39 = {
+						TestTargetID = 891155B519B8EB48009D6A39;
+					};
+				};
+			};
+			buildConfigurationList = 891155B119B8EB48009D6A39 /* Build configuration list for PBXProject "Attendance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891155AD19B8EB48009D6A39;
+			productRefGroup = 891155B719B8EB48009D6A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891155B519B8EB48009D6A39 /* Attendance */,
+				891155E119B8EB48009D6A39 /* AttendanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891155B419B8EB48009D6A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155D219B8EB48009D6A39 /* Main_iPad.storyboard in Resources */,
+				891155DD19B8EB48009D6A39 /* Images.xcassets in Resources */,
+				891155CF19B8EB48009D6A39 /* Main_iPhone.storyboard in Resources */,
+				891155C619B8EB48009D6A39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891155E019B8EB48009D6A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155EF19B8EB48009D6A39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891155B219B8EB48009D6A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155DB19B8EB48009D6A39 /* DetailViewController.m in Sources */,
+				891155D819B8EB48009D6A39 /* MasterViewController.m in Sources */,
+				891155CC19B8EB48009D6A39 /* AppDelegate.m in Sources */,
+				891155D519B8EB48009D6A39 /* Attendance.xcdatamodeld in Sources */,
+				891155C819B8EB48009D6A39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891155DE19B8EB48009D6A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891155F119B8EB48009D6A39 /* AttendanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891155E919B8EB48009D6A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891155B519B8EB48009D6A39 /* Attendance */;
+			targetProxy = 891155E819B8EB48009D6A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891155C419B8EB48009D6A39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891155C519B8EB48009D6A39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		891155CD19B8EB48009D6A39 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891155CE19B8EB48009D6A39 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		891155D019B8EB48009D6A39 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891155D119B8EB48009D6A39 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		891155ED19B8EB48009D6A39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891155EE19B8EB48009D6A39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891155F219B8EB48009D6A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		891155F319B8EB48009D6A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891155F519B8EB48009D6A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance/Attendance-Prefix.pch";
+				INFOPLIST_FILE = "Attendance/Attendance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		891155F619B8EB48009D6A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance/Attendance-Prefix.pch";
+				INFOPLIST_FILE = "Attendance/Attendance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		891155F819B8EB48009D6A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Attendance.app/Attendance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance/Attendance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AttendanceTests/AttendanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		891155F919B8EB48009D6A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Attendance.app/Attendance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Attendance/Attendance-Prefix.pch";
+				INFOPLIST_FILE = "AttendanceTests/AttendanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891155B119B8EB48009D6A39 /* Build configuration list for PBXProject "Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891155F219B8EB48009D6A39 /* Debug */,
+				891155F319B8EB48009D6A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891155F419B8EB48009D6A39 /* Build configuration list for PBXNativeTarget "Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891155F519B8EB48009D6A39 /* Debug */,
+				891155F619B8EB48009D6A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		891155F719B8EB48009D6A39 /* Build configuration list for PBXNativeTarget "AttendanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891155F819B8EB48009D6A39 /* Debug */,
+				891155F919B8EB48009D6A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		891155D319B8EB48009D6A39 /* Attendance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				891155D419B8EB48009D6A39 /* Attendance.xcdatamodel */,
+			);
+			currentVersion = 891155D419B8EB48009D6A39 /* Attendance.xcdatamodel */;
+			path = Attendance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 891155AE19B8EB48009D6A39 /* Project object */;
+}
